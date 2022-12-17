@@ -1,16 +1,16 @@
-(function ($) {
-"use strict";
-// TOP Menu Sticky
-$(window).on('scroll', function () {
-	var scroll = $(window).scrollTop();
-	if (scroll < 400) {
-    $("#sticky-header").removeClass("sticky");
-    $('#back-top').fadeIn(500);
-	} else {
-    $("#sticky-header").addClass("sticky");
-    $('#back-top').fadeIn(500);
-	}
-});
+ (function ($) {
+ "use strict";
+ // TOP Menu Sticky
+ $(window).on('scroll', function () {
+ 	var scroll = $(window).scrollTop();
+ 	if (scroll < 400) {
+     $("#sticky-header").removeClass("sticky");
+     $('#back-top').fadeIn(500);
+ 	} else {
+     $("#sticky-header").addClass("sticky");
+     $('#back-top').fadeIn(500);
+ 	}
+ });
 
 
 
@@ -343,24 +343,24 @@ mailChimp();
 
         const tilt = $('.js-tilt').tilt({
           maxTilt:        20,
-          // perspective:    10,   // Transform perspective, the lower the more extreme the tilt gets.
-          // easing:         "cubic-bezier(.03,.98,.52,.99)",    // Easing on enter/exit.
-          // scale:          1,      // 2 = 200%, 1.5 = 150%, etc..
-          // speed:          500,    // Speed of the enter/exit transition.
-          // transition:     true,   // Set a transition on enter/exit.
-          // disableAxis:    null,   // What axis should be disabled. Can be X or Y.
-          // reset:          true,   // If the tilt effect has to be reset on exit.
-          // glare:          true,  // Enables glare effect
-          // maxGlare:       1       // From 0 - 1.
+           perspective:    10,   // Transform perspective, the lower the more extreme the tilt gets.
+           easing:         "cubic-bezier(.03,.98,.52,.99)",    // Easing on enter/exit.
+           scale:          1,      // 2 = 200%, 1.5 = 150%, etc..
+           speed:          500,    // Speed of the enter/exit transition.
+           transition:     true,   // Set a transition on enter/exit.
+           disableAxis:    null,   // What axis should be disabled. Can be X or Y.
+           reset:          true,   // If the tilt effect has to be reset on exit.
+           glare:          true,  // Enables glare effect
+           maxGlare:       1       // From 0 - 1.
       });
 
-    //check error post runtime.
-      // var cursor = document.getElementById('cursor');
-      // document.addEventListener('mousemove', function(e){
-      // var x = e.clientX;
-      // var y = e.clientY;
-      // cursor.style.left = x + 'px';
-      // cursor.style.top = y + 'px';
-      // })
+    
+       var cursor = document.getElementById('cursor');
+       document.addEventListener('mousemove', function(e){
+       var x = e.clientX;
+       var y = e.clientY;
+       cursor.style.left = x + 'px';
+       cursor.style.top = y + 'px';
+       })
 
-})(jQuery);	
+    })(jQuery);	

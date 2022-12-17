@@ -670,7 +670,7 @@ button {
 /* line 52, ../../Arafath/CL/December/236. Event-02/HTML/scss/theme-default.scss */
 h1, h2, h3, h4, h5 {
   font-family: "Anton", sans-serif;
-  color: #001D38;
+  color: #ffffff;
 }
 
 /* line 56, ../../Arafath/CL/December/236. Event-02/HTML/scss/theme-default.scss */
@@ -1017,7 +1017,7 @@ h3 {
 
 /* line 327, ../../Arafath/CL/December/236. Event-02/HTML/scss/theme-default.scss */
 .mb-80 {
-  margin-bottom: 80px;
+  margin-bottom: 0px;
 }
 
 /* line 330, ../../Arafath/CL/December/236. Event-02/HTML/scss/theme-default.scss */
